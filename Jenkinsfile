@@ -2,7 +2,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'http-server -p 1730'
+                sh 'node index.js'
             }
         }
     }
